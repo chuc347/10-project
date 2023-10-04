@@ -43,8 +43,6 @@ async function getMealsBySearch(term) {
 }
 
 function addMeal(mealData, random = false) {
-    console.log(mealData);
-
     const meal = document.createElement("div");
     meal.classList.add("meal");
 
